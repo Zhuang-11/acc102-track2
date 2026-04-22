@@ -5,7 +5,7 @@ This project analyzes the cumulative stock performance of Apple (AAPL) and Micro
 
 ## 2. Data
 - **Source**: WRDS CRSP Monthly Stock Database
-- **Access Date**: 22 April 2025
+- **Access Date**: 22 April 2026
 - **Time Period**: 2022-01-01 to 2024-12-31
 - **Companies**:
   - Apple (AAPL): permno 14593
