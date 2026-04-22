@@ -1,0 +1,23 @@
+Reflection on ACC102 Track 2 Project
+
+This reflection report summarizes my experience and learning from completing my Track 2 assignment for ACC102. The project involved building a data product using Python and WRDS, focusing on a comparative analysis of two major US technology companies: Apple and Microsoft. The target users are students and beginner investors who want to understand stock performance trends through clear data analysis.
+
+In this project, I applied the Python and SQL skills learned in class to a real-world financial dataset. I compared the cumulative returns of the two companies over the 2022–2024 period and aimed to generate clear and practical findings from the data.
+
+The dataset was obtained from the CRSP database via WRDS, which provided high-quality, reliable monthly stock data. I connected to the database using the `wrds` Python library and wrote SQL queries to extract the required information. I tried my best to apply the data access and processing methods taught in class to complete this step.
+
+In Python, I performed a complete data analysis workflow. I cleaned the data by removing missing values and showed clear before-and-after outputs, split the dataset by company, and calculated cumulative returns for comparison. I then used `matplotlib` to create a clear line chart that shows performance trends, with properly formatted date labels to avoid overlap and ensure readability. One main challenge I faced was dealing with date formatting and unclear axis display. I solved this by adjusting rotation and layout settings, checking data structure step by step, and reorganizing the code to ensure the final output was clear, complete, and reproducible.
+
+The analysis revealed that Microsoft achieved stronger and more stable cumulative return growth than Apple during the period. Apple showed positive overall growth but experienced relatively higher volatility. Both companies delivered positive cumulative returns across the three years. These findings were clearly presented in the visualization and summarized in key findings.
+
+I have built a public GitHub repository that contains my Jupyter notebook, README file, and project explanation. The code is well-commented and clearly structured, and the README explains the project purpose, data source, methods, results, and instructions for running the code.
+
+The main limitation of this project is that it focuses only on monthly price-based returns. Future improvements could include adding dividend reinvestment, transaction costs, more companies from different sectors, or macroeconomic factors to make the analysis more comprehensive.
+
+Through this assignment, I significantly improved my technical skills in using WRDS, writing SQL queries, conducting data cleaning and analysis, and building a complete, documented data product. I also gained practical experience in data visualization and presenting analytical findings in a clear and user-friendly way. This project reinforced my understanding of how classroom knowledge can be applied to real business scenarios, providing valuable experience for my future academic and professional development.
+
+AI Disclosure:
+Tool: ChatGPT, Doubao
+Model: GPT-4o
+Date: 22 April 2026
+Use: Code debugging, idea structuring, language refinement, and writing support
